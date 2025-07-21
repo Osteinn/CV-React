@@ -5,7 +5,7 @@
 body {
  margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url("image2/background.jpg") no-repeat center center fixed;
+  background: url("./image2/background.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #eee;
 }

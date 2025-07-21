@@ -1,10 +1,11 @@
 import React from "react";
+import profileImage from "./image2/png_resume.jpg";
 
 export default function ResumeSite() {
     return (
         <div className="container">
             <header>
-                <img src="/image2/png_resume.jpg" alt="Фото Владислава" className="profile-pic" />
+                <img src={profileImage} alt="Фото Владислава" className="profile-pic" />
                 <h1>Morhachov Vladyslav</h1>
                 <p className="subtitle">Front-End Developer | Freelancer on Fiver and UpWork</p>
             </header>
